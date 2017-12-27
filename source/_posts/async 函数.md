@@ -1,8 +1,10 @@
 ---
 title: async 函数
-data: 2017-12-13
+date: 2017-12-13
 tags: [Javascript, ES6]
-categories: Javascript
+categories: 
+        - Javascript
+        - Es6
 ---
 ## 1、含义
 async 是什么？它就是Generator函数的语法糖。

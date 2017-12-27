@@ -1,7 +1,10 @@
 ---
 title: Promise 对象
-data: 2017-10-26
-type: /code
+date: 2017-10-26
+tags: [Javascript, ES6]
+categories: 
+        - Javascript
+        - Es6
 ---
 ## Promise对象的含义
 Promise是异步编程的一种解决方案，比传统的解决方案--回调函数和事件--更合理和强大。它是由社区最早提出和发现的。所谓Promise，简单说就是一个容器，里面保存着某个未来才会结束的事件（通常是一个异步操作）的结果。从语法上说是一个对象，从它可以获取异步操作的消息。Promise提供统一的API，各种异步操作都可以使用同样的方法进行处理。
