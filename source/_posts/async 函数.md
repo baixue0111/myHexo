@@ -1,9 +1,9 @@
 ---
 title: async 函数
 date: 2017-12-13
-tags: [Javascript, ES6]
+tags: [JavaScript, ES6]
 categories: 
-        - Javascript
+        - JavaScript
         - Es6
 ---
 ## 1、含义

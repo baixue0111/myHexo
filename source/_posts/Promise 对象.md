@@ -1,9 +1,9 @@
 ---
 title: Promise 对象
 date: 2017-10-26
-tags: [Javascript, ES6]
+tags: [JavaScript, ES6]
 categories: 
-        - Javascript
+        - JavaScript
         - Es6
 ---
 ## Promise对象的含义
