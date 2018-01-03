@@ -5,8 +5,6 @@ tags: [JavaScript]
 categories: 
         - JavaScript
 ---
-原文链接:
-[http://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html](http://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html)
 ### 一、undefined和null地相似性：
 在JavaScript中，将一个变量赋值undefined或null，几乎没什么区别。
 ``` JavaScript
@@ -33,6 +31,7 @@ undefined == null;  // true
 Number(null);  // 0
 console.log(5 + null);   // 5
 ```
+<!--more-->
 但是JavaScript的设计者Brendan Eich，觉得这样做还不够，有两个原因。
 **首先**，null像在java里一样，被当成一个对象，但是JavaScript的数据类型分成原始类型和合成类型两大类，Brendan Eich觉得表示“无”的值最好不是对象。
 **其次**JavaScript的最初版本没有包括错误处理机制，发生数据类型不匹配时，往往是自动转换类型或者默认失败。Brendan Eich觉得，如果null自动转转为0，很不容易发生错误。因此又设计了一个undefined。
@@ -65,5 +64,6 @@ o.p  // undefined
 var x = f();
 x;  // undefined
 ```
-（完）
+原文链接:
+[http://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html](http://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html)
 
