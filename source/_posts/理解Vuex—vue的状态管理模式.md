@@ -39,6 +39,7 @@ const store = new Vuex.Store({
     }
 })
 ```
+<!--more-->
 这个就是最基本也是完整的vuex代码；vuex包含5个基本的对象：
 * state: 存储状态。也就是变量；
 * getters: 派生状态。也就是set、get中的get，有两个可选参数：state、getters分别可以获取state中的变量和其他的getters。外部调用方式：store.getters.personInfo()。就和vue的computed差不多；
