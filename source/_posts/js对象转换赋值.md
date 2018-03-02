@@ -30,7 +30,7 @@ console.log(newObj); //{"name": "baixue","id": 22,"website": "http://baidu.com"}
 <!-- more -->
 **我只修改了newObj的值，而_obj的值也变了，这是因为newObj复制了_obj的值此时_obj和newObj同时指向了一个地址，所以改变其中任意一个对象的值另一个都会变，那该如何处理可以保持原始对象值不变呢，请继续看下方示例。**
 
-还是上面的例子，我们修改一下：
+**还是上面的例子，我们修改一下：**
 ``` JavaScript
 var _obj = new Object();
 
